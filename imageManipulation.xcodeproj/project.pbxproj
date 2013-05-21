@@ -19,6 +19,7 @@
 		33E7D6681743F91B0060C6A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E7D6671743F91B0060C6A4 /* ViewController.m */; };
 		33E7D66B1743F91B0060C6A4 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33E7D6691743F91B0060C6A4 /* ViewController_iPhone.xib */; };
 		33E7D66E1743F91B0060C6A4 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33E7D66C1743F91B0060C6A4 /* ViewController_iPad.xib */; };
+		33E7D6751743FAB00060C6A4 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33E7D6741743FAB00060C6A4 /* CoreImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		33E7D6671743F91B0060C6A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		33E7D66A1743F91B0060C6A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		33E7D66D1743F91B0060C6A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		33E7D6741743FAB00060C6A4 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33E7D6751743FAB00060C6A4 /* CoreImage.framework in Frameworks */,
 				33E7D64F1743F91B0060C6A4 /* UIKit.framework in Frameworks */,
 				33E7D6511743F91B0060C6A4 /* Foundation.framework in Frameworks */,
 				33E7D6531743F91B0060C6A4 /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +78,7 @@
 		33E7D64D1743F91B0060C6A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				33E7D6741743FAB00060C6A4 /* CoreImage.framework */,
 				33E7D64E1743F91B0060C6A4 /* UIKit.framework */,
 				33E7D6501743F91B0060C6A4 /* Foundation.framework */,
 				33E7D6521743F91B0060C6A4 /* CoreGraphics.framework */,

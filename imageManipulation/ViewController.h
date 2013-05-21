@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreImage/CoreImage.h>
 
 @interface ViewController : UIViewController
-
+{
+    IBOutlet UIImageView *image_display;
+    UIPopoverController *popover;
+    UIImage *original_image;
+}
 @end
